@@ -94,4 +94,15 @@ const { title } = Astro.props;
 		font-size: 0.8rem;
 		font-weight: bold;
 	}
+
+	hr {
+		border: 0;
+		margin: 4rem 0;
+	}
+
+	hr::after {
+		content: '❦';
+		display: block;
+		text-align: center;
+	}
 </style>
